@@ -51,7 +51,6 @@ class ProfileScreen extends StatelessWidget {
               ),
               const SizedBox(height: 5),
 
-              // البريد الإلكتروني
               Text(
                 email,
                 style: const TextStyle(

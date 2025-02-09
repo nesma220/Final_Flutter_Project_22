@@ -170,7 +170,7 @@ class HomeScreen extends StatelessWidget {
                     children: bookmarkController.services.map((service) {
                       if (service['name'] == null || service['price'] == null) {
                         debugPrint('Invalid service data: $service');
-                        return const SizedBox(); // أو عرض رسالة خطأ
+                        return const SizedBox(); 
                       }
                       return ServiceItem(
                         title: service['name'].toString(),

@@ -26,7 +26,7 @@ class ServiceItem extends StatelessWidget {
     return GestureDetector(
       onTap: ontap,
       child: Card(
-        margin: const EdgeInsets.symmetric(horizontal: 18, vertical: 8),
+        margin: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
         elevation: 2,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         child: Container(

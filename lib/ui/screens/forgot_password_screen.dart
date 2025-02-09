@@ -40,7 +40,7 @@ class ForgotPasswordScreen extends StatelessWidget {
 
               Center(
                 child: Image.asset(
-                  'assets/images/pass.png',
+                  'assets/images/pass.jpeg',
                   width: 250,
                   height: 200,
                 ),

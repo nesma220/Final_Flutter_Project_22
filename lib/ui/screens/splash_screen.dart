@@ -29,13 +29,11 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // الشعار (يمكنك استبدال الصورة بالشعار الموجود في التصميم)
             Image.asset(
-              'assets/images/logo.png', // استبدليه بمسار اللوجو الصحيح
+              'assets/images/logo.jpeg', 
               height: 120,
             ),
             const SizedBox(height: 400),
-            // دائرة التحميل (تدور لفترة قصيرة فقط)
             const CircularProgressIndicator(
               color: Colors.purple,
             ),

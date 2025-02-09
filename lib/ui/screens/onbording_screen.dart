@@ -16,15 +16,15 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   final List<Map<String, String>> _pages = [
     {
-      'image': 'assets/images/onbordin1.png', // صورة الشاشة الأولى
+      'image': 'assets/images/onbordin1.jpeg', 
       'title': 'We provide professional service at a friendly price',
     },
     {
-      'image': 'assets/images/onbording2.png', // صورة الشاشة الثانية
+      'image': 'assets/images/onbording2.jpeg', 
       'title': 'The best results and your satisfaction is our top priority',
     },
     {
-      'image': 'assets/images/onbording3.png', // صورة الشاشة الثالثة
+      'image': 'assets/images/onbording3.jpeg', 
       'title': 'Let\'s make awesome changes to your home',
     },
   ];

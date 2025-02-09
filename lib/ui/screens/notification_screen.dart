@@ -69,7 +69,6 @@ class NotificationScreen extends StatelessWidget {
       ),
       child: Row(
         children: [
-          // الدائرة الملونة مع الأيقونة
           Container(
             width: 50,
             height: 50,

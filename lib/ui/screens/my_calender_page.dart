@@ -10,13 +10,13 @@ class MyCalendarPage extends StatelessWidget {
         'title': 'House Cleaning',
         'client': 'Jenny Wilson',
         'status': 'Upcoming',
-        'image': 'assets/cleaning.png', 
+        'image': 'assets/cleaning.jpeg', 
       },
       {
         'title': 'Appliance Service',
         'client': 'Alex Nguyen',
         'status': 'Upcoming',
-        'image': 'assets/appliance.png', 
+        'image': 'assets/appliance.jpeg', 
       },
     ];
 

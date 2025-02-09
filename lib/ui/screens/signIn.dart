@@ -24,7 +24,7 @@ class SignInScreen extends StatelessWidget {
                 // Illustration
                 SizedBox(
                   height: 150,
-                  child: Image.asset('assets/images/loginImage1.png'),
+                  child: Image.asset('assets/images/loginImage1.jpeg'),
                 ),
                 const SizedBox(height: 40),
                 // Main Text
