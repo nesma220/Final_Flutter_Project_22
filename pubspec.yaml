@@ -48,6 +48,9 @@ dependencies:
   flutter_map_cancellable_tile_provider: ^3.0.0
   flutter_stripe: ^11.4.0
   dio: ^5.8.0+1
+  dash_chat_2: ^0.0.21
+  flutter_local_notifications: ^18.0.1
+
 
 dev_dependencies:
   flutter_test:

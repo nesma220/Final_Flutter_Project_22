@@ -9,7 +9,7 @@ class AppRoute {
   static const String signInScreen = "/signInScreen";
   static const String splashScreen = "/splashScreen";
   static const String verificationScreen = "/verificationScreen";
-  static const String inboxScreen = "/inboxScreen";
+  static const String chatScreen = "/chatScreen";
   static const String bookmarkScreen = "/bookmarkScreen";
   static const String homeScreen = "/homeScreen";
   static const String calendarToday = "/calendarToday";

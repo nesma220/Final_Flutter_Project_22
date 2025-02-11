@@ -1,5 +1,6 @@
 import 'package:final_project/ui/screens/HomeScreen.dart';
-import 'package:final_project/ui/screens/Inbox_screen.dart';
+import 'package:final_project/ui/screens/chat_list_screen.dart';
+import 'package:final_project/ui/screens/chat_screen.dart';
 import 'package:final_project/ui/screens/bookmark_screen.dart';
 import 'package:final_project/ui/screens/profile_page.dart';
 import 'package:final_project/view_models/home_controller.dart';
@@ -14,7 +15,7 @@ class HomePage extends StatelessWidget {
   final List<Widget> _screens = [
     HomeScreen(),
     MyBookmarkScreen(),
-    InboxScreen(),
+    ChatListScreen(),
     ProfileScreen(),
   ];
 

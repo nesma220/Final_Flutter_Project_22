@@ -1,6 +1,7 @@
 import 'package:final_project/Route/app_route.dart';
 import 'package:final_project/ui/screens/HomeScreen.dart';
-import 'package:final_project/ui/screens/Inbox_screen.dart';
+import 'package:final_project/ui/screens/chat_list_screen.dart';
+import 'package:final_project/ui/screens/chat_screen.dart';
 import 'package:final_project/ui/screens/allservices_screen%20.dart';
 import 'package:final_project/ui/screens/bookmark_screen.dart';
 import 'package:final_project/ui/screens/calendar_today_screen.dart';
@@ -36,7 +37,7 @@ List<GetPage> appPage = [
   GetPage(name: AppRoute.splashScreen, page: () => const SplashScreen()),
   GetPage(name: AppRoute.verificationScreen, page: () => VerificationScreen()),
   GetPage(name: AppRoute.bookmarkScreen, page: () => MyBookmarkScreen()),
-  GetPage(name: AppRoute.inboxScreen, page: () => InboxScreen()),
+  GetPage(name: AppRoute.chatScreen, page: () => ChatListScreen()),
   GetPage(name: AppRoute.calendarToday, page: () => const CalendarToday()),
   GetPage(name: AppRoute.allServicesScreen, page: () => AllServicesScreen()),
   GetPage(name: AppRoute.notificationScreen, page: () => NotificationScreen()),
