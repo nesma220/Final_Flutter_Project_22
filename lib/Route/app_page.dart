@@ -1,7 +1,6 @@
 import 'package:final_project/Route/app_route.dart';
 import 'package:final_project/ui/screens/HomeScreen.dart';
 import 'package:final_project/ui/screens/chat_list_screen.dart';
-import 'package:final_project/ui/screens/chat_screen.dart';
 import 'package:final_project/ui/screens/allservices_screen%20.dart';
 import 'package:final_project/ui/screens/bookmark_screen.dart';
 import 'package:final_project/ui/screens/calendar_today_screen.dart';

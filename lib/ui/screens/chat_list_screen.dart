@@ -5,6 +5,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'chat_screen.dart';
 
 class ChatListScreen extends StatefulWidget {
+  const ChatListScreen({super.key});
+
   @override
   _ChatListScreenState createState() => _ChatListScreenState();
 }
